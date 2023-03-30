@@ -11,7 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TaranvirBookStore.Data;
+using TaranvirBookStore.DataAccess.Data;
 
 namespace TaranvirBookStore
 {
@@ -60,9 +60,14 @@ namespace TaranvirBookStore
 
             app.UseEndpoints(endpoints =>
             {
+                //endpoints.MapControllerRoute(
+                   // name: "default",
+                    //pattern: "{controller=Home}/{action=Index}/{id?}");//Deault Route Pattern
+                //endpoints.MapRazorPages();
+
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");//Deault Route Pattern
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
