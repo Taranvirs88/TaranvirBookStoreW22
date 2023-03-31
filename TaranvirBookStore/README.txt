@@ -239,3 +239,7 @@ Added the UnitOfWork interface in the IRespoistory folder
 Added the UnitOfWork class in the Respoistory folder
 
 
+0240
+*********
+Created the new CategoryControler.cs in the Area Controller folder
+
