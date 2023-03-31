@@ -179,3 +179,24 @@ And write command in the PM but it was but it was failed
 ***********
 now update the dabase it is succeed
 then Add the Category.cs file into Models folder
+
+
+2045
+**************
+Added the new class in the .Models
+Category.cs
+
+2050
+**********
+Added the migration in the PM
+add-migration AddCategoryToDb
+
+2053
+**********
+Update the Database using this command
+update-database
+
+New categories are added into the 20230331004_AddCategoryToDb.cs file
+
+
+
