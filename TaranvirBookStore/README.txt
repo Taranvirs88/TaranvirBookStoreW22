@@ -220,3 +220,8 @@ And Added the IRepository.cs in the IRepository
 Write the methods into ICategoryRepository.cs and call the Methods to…
 … CategoryRepository.cs
 
+2023-03-30
+*****************
+Start again working on Assignment 2
+Part2
+
