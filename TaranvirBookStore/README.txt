@@ -161,3 +161,21 @@ Update the appsettings.json file on line 3
 Add migration in the package manager for DataAceess project.
 *****************
 add-migration AddDefaultIdentityMigration
+
+
+2023-03-30
+**************
+Strated Working on Assignment 2
+1954
+
+Added the migration file
+
+1956
+20230330234509_AddDefaultIdentityMigration.cs
+
+And write command in the PM but it was but it was failed
+
+2007
+***********
+now update the dabase it is succeed
+then Add the Category.cs file into Models folder
