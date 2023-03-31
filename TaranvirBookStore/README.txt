@@ -90,6 +90,7 @@ to navbar dark and bg-white to bg-primary
 
 Started Working on Assignment 2
 ****************
+Start working on Assignment because i didnot resolve my error becuase project was nort loaded
 1745
 Added the dropdown navigation bar below the privacy lists the _Layout.cshtml
 
