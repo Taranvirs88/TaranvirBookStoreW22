@@ -214,3 +214,9 @@ added a IRepository folder in the Repository folder and write the Crud operation
 Created Category.cs class in the Repsoitory folder
  
 And Added the IRepository.cs in the IRepository
+
+2201
+*************
+Write the methods into ICategoryRepository.cs and call the Methods to…
+… CategoryRepository.cs
+
