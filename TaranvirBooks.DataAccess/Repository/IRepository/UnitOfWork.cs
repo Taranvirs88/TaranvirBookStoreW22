@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TaranvirBooks.DataAccess.Repository.IRepository
 {
-     public interface IUnitOfWork :IDisposable
+    interface UnitOfWork :IDisposable
     {
         ICategoryRepository Category { get; }
 

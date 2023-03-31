@@ -171,8 +171,9 @@ Strated Working on Assignment 2
 Added the migration file
 
 1956
+********************
 20230330234509_AddDefaultIdentityMigration.cs
-
+********************
 And write command in the PM but it was but it was failed
 
 2007
@@ -196,7 +197,11 @@ add-migration AddCategoryToDb
 Update the Database using this command
 update-database
 
-New categories are added into the 20230331004_AddCategoryToDb.cs file
+New categories are added into the
+
+******************
+20230331004_AddCategoryToDb.cs
+******************
 
 
 2153
