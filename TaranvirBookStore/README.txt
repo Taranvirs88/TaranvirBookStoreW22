@@ -208,3 +208,9 @@ and
 2155
 **********
 added a IRepository folder in the Repository folder and write the Crud operations using staraement.
+
+2159
+******
+Created Category.cs class in the Repsoitory folder
+ 
+And Added the IRepository.cs in the IRepository
