@@ -199,4 +199,12 @@ update-database
 New categories are added into the 20230331004_AddCategoryToDb.cs file
 
 
+2153
+*************
+Created the Repoistory folder in DataAccess project
 
+and 
+
+2155
+**********
+added a IRepository folder in the Repository folder and write the Crud operations using staraement.
