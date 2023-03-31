@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace TaranvirBooks.DataAccess.Repository
-{
-    public class UnitOfWork//make the method public to access the class
+{ 
+    public class UnitOfWork : IUnitOfWork//make the method public to access the class
     {
         private readonly ApplicationDbContext _db; //the using statement
         public UnitOfWork(ApplicationDbContext db)// constructor to use DI and inject in to the repositories
@@ -26,8 +26,8 @@ namespace TaranvirBooks.DataAccess.Repository
         }
 
         public void Save()
-         {
-           _db.SaveChanges();//All the changes will be saved when the save methods is called at the parent leave.
-         }
+        {
+            _db.SaveChanges();//All the changes will be saved when the save methods is called at the parent leave.
+        }
     }
 }

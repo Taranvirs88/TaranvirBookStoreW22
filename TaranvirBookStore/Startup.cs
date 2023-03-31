@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TaranvirBooks.DataAccess.Repository;
+using TaranvirBooks.DataAccess.Repository.IRepository;
 using TaranvirBookStore.DataAccess.Data;
 
 namespace TaranvirBookStore
