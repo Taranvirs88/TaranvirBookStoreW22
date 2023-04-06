@@ -252,3 +252,17 @@ Created the new CategoryControler.cs in the Area Controller folder
 2023-03-31
 ***************
 Rename the UnitOfWork interface to IUnitOfWork
+
+2023-04-06
+***************
+Start Working on Assignment 2 
+Clone the repository and start to execute 
+project ran goods
+
+
+***************
+Build the project
+(Part 2)
+Category CRUD
+
+
