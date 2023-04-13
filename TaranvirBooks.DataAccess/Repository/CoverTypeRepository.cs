@@ -1,6 +1,11 @@
-﻿using TaranvirBooks.DataAccess.Repository.IRepository;
+﻿
+using TaranvirBooks.DataAccess.Repository.IRepository;
 using TaranvirBooks.Models;
+using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using TaranvirBookStore.DataAccess.Data;
 
 namespace TaranvirBooks.DataAccess.Repository

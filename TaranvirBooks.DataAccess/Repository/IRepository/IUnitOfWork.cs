@@ -10,6 +10,8 @@ namespace TaranvirBooks.DataAccess.Repository.IRepository
 
         ISP_Call SP_Call { get; }
 
+        ICoverTypeRepository Cover { get; }
+
         void Save();
     }
 }
