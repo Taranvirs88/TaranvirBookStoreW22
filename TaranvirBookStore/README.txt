@@ -299,5 +299,15 @@ Start Working on Assignment2
 
 Created the CoverType.cs class in the TaranvirBooks.Models folder
 
+2320
+**************
+
+Add the interface ICoverTypeRepository.cs to the IRepository folder
+
+
+2323
+********************
+Created the CoverTypeRepository.cs class in the Repository folder
+
 
 
