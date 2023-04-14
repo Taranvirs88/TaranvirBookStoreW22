@@ -297,4 +297,7 @@ Add  _EditAndBackToListButton.cshtml inside Shared folder
 Start Working on Assignment2 
 (Part-3)
 
+Created the CoverType.cs class in the TaranvirBooks.Models folder
+
+
 
