@@ -309,5 +309,9 @@ Add the interface ICoverTypeRepository.cs to the IRepository folder
 ********************
 Created the CoverTypeRepository.cs class in the Repository folder
 
+2328
+***********
+Call to the CoverTypeRepository.cs class in the UnitOfWork.cs class a… 
 
+… nd in the interface
 
