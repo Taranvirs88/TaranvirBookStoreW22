@@ -315,3 +315,19 @@ Call to the CoverTypeRepository.cs class in the UnitOfWork.cs class a…
 
 … nd in the interface
 
+2331
+*********
+ run the coomand for covertype db in the powershell using this command.
+ add-migration AddCoverTypeToDb
+
+ 2334
+ ********
+ Update the database
+
+**********
+
+update-database
+
+Migration file name
+*********************
+20230414033108_AddCoverTypeToDb.cs
