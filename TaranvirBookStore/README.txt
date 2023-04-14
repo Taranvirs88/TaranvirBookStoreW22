@@ -340,3 +340,23 @@ Created the coverTypeController in the Controllers folder.
 **********
 
 My Cateogory folder was not solved then i added the file and reworking on Category Controller.cs file
+
+1249
+*********
+Created the Product.cs class in the Model folder and 
+
+Update The Applicationdbcontext.cs class 
+
+
+1249
+ run the command for Product.cs migrations 
+ add-migration addProductToDb
+
+ ****
+ Update the database using the following command
+  update-database
+
+Timestamp file for product.cs class
+********************
+20230414044617_addProductToDb.cs 
+
