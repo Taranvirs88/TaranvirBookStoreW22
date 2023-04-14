@@ -390,3 +390,6 @@ Call to the ProductRepository.cs class in the UnitOfWork.cs class a…
 
 … nd in the interface
 
+Assignment-2(Part3)
+(Section3.1)Completed
+**************************
