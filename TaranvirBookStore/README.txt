@@ -360,3 +360,17 @@ Timestamp file for product.cs class
 ********************
 20230414044617_addProductToDb.cs 
 
+1259
+***************
+1249
+ run the command for Product.cs migrations 
+ add-migration addValidationToProduct
+
+ ****
+ Update the database using the following command
+  update-database
+
+Timestamp file for product.cs class
+********************
+20230414045809_addValidationToProduct.cs
+
