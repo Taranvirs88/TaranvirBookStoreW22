@@ -270,6 +270,30 @@ Category CRUD
 1935
 *************
 
+And now error is slved and category list is showing
+
+1945
+**************
+Add category.js inside wwwroot folder.
+
+
+2010
+**************
+Modify CategoryController.cs
+
+
+2023-04-13 
+*************
+2015
+**************
+Add _CreateAndBackToListButton.cshtml inside Shared folder
+
+2019
+**************
+Add  _EditAndBackToListButton.cshtml inside Shared folder
+
+2025
+**************
 Start Working on Assignment2 
 (Part-3)
 
