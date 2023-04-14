@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using TaranvirBooks.DataAccess.Repository.IRepository;
+using TaranvirBooks.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TaranvirBooks.DataAccess.Repository.IRepository;
-using TaranvirBooks.Models;
 
 namespace TaranvirBookStore.Areas.Admin.Controllers
 {
@@ -12,10 +12,12 @@ namespace TaranvirBookStore.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+
         public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
+
         public IActionResult Index()
         {
             return View();
@@ -58,10 +60,8 @@ namespace TaranvirBookStore.Areas.Admin.Controllers
             return View(category);
         }
 
+        #region API CALLS
 
-
-        // API calls here
-        #region
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -75,12 +75,14 @@ namespace TaranvirBookStore.Areas.Admin.Controllers
             var objFromDb = _unitOfWork.Category.Get(id);
             if (objFromDb == null)
             {
-                return Json(new { success = false, message = "Error while Deleting" });
+                return Json(new { success = false, message = "Error while deleting" });
             }
             _unitOfWork.Category.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
         }
+
         #endregion
+
     }
 }
