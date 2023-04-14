@@ -335,3 +335,8 @@ Migration file name
 2341
 **********
 Created the coverTypeController in the Controllers folder.
+
+1212
+**********
+
+My Cateogory folder was not solved then i added the file and reworking on Category Controller.cs file
