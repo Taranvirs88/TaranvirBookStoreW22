@@ -331,3 +331,7 @@ update-database
 Migration file name
 *********************
 20230414033108_AddCoverTypeToDb.cs
+
+2341
+**********
+Created the coverTypeController in the Controllers folder.
