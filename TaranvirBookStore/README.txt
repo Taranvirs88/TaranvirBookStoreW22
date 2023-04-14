@@ -374,3 +374,19 @@ Timestamp file for product.cs class
 ********************
 20230414045809_addValidationToProduct.cs
 
+
+0121
+***************
+Add the interface ICoverTypeRepository.cs to the IRepository folder
+
+
+2323
+********************
+Created the IProductRepository.cs class in the Repository folder
+
+2328
+***********
+Call to the ProductRepository.cs class in the UnitOfWork.cs class a… 
+
+… nd in the interface
+
