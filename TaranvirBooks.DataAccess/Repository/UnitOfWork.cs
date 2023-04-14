@@ -3,7 +3,7 @@ using TaranvirBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+using TaranvirBookStore.DataAccess.Repository;
 
 namespace TaranvirBooks.DataAccess.Repository
 {
@@ -15,16 +15,15 @@ namespace TaranvirBooks.DataAccess.Repository
             _db = db;
             Category = new CategoryRespository(_db);
             SP_Call = new SP_Call(_db);
-           
+            Cover = new CoverTypeRepository(_db);
+
         }
 
         public ICategoryRepository Category { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
 
-        
-
-        
+        public ICoverTypeRepository Cover { get; private set; }
 
         public void Dispose()
         {
