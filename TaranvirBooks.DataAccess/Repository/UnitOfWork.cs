@@ -3,6 +3,7 @@ using TaranvirBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using TaranvirBookStore.DataAccess.Repository;
 
 namespace TaranvirBooks.DataAccess.Repository
 {
