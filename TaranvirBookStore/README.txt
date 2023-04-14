@@ -104,20 +104,17 @@ Added three class library projects in the solution file project
 3.taranvirsBooks.Utility
 
 1905
-*************
 Moved the data folder from the main project into TaranvirsBooks.DataAccess
 
 1915
-***********
 Delete the migration folder from the Data folder
 
 1920
-*************************
+
 Change the namespace Taranvirs.Data to namespace TaranvirsBooks.DataAccess.Data in ApplicationdbContext.cs
 
 
 1935
-********
 
 Rename the Model folder as ViewModels
 make some changes in the Homecontroller.cs and Error viewModel.cs
@@ -129,12 +126,10 @@ Add Customer Area Folder
 
 
 1945
-*******
 Move the Homecontrollers.cs File in the Area Folder and change the names on the line 11
  and Update the Startup.cs on the line 64 
 
 1950 
-****************
 Move the Home folder into the Areas Views Folder 
 
 1952
@@ -154,11 +149,10 @@ clone repository from github
 create the Db 
 
 1517
-***********
 Update the appsettings.json file on line 3 
 
 1528
-*****************
+
 Add migration in the package manager for DataAceess project.
 *****************
 add-migration AddDefaultIdentityMigration
@@ -172,29 +166,24 @@ Strated Working on Assignment 2
 Added the migration file
 
 1956
-********************
 20230330234509_AddDefaultIdentityMigration.cs
 ********************
 And write command in the PM but it was but it was failed
 
 2007
-***********
 now update the dabase it is succeed
 then Add the Category.cs file into Models folder
 
 
 2045
-**************
 Added the new class in the .Models
 Category.cs
 
 2050
-**********
 Added the migration in the PM
 add-migration AddCategoryToDb
 
 2053
-**********
 Update the Database using this command
 update-database
 
@@ -206,23 +195,19 @@ New categories are added into the
 
 
 2153
-*************
 Created the Repoistory folder in DataAccess project
 
 and 
 
 2155
-**********
 added a IRepository folder in the Repository folder and write the Crud operations using staraement.
 
 2159
-******
 Created Category.cs class in the Repsoitory folder
  
 And Added the IRepository.cs in the IRepository
 
 2201
-*************
 Write the methods into ICategoryRepository.cs and call the Methods to…
 … CategoryRepository.cs
 
@@ -232,21 +217,17 @@ Start again working on Assignment 2
 Part2
 
 0112
-*********
 Created the SP_Call.cs class in the Respoistory folder
 
 
 0127
-**********
 Added the UnitOfWork interface in the IRespoistory folder
 
 0234
-*********
 Added the UnitOfWork class in the Respoistory folder
 
 
 0240
-*********
 Created the new CategoryControler.cs in the Area Controller folder
 
 2023-03-31
@@ -268,60 +249,50 @@ Category CRUD
 **************
 2023-04-13
 1935
-*************
 
 And now error is slved and category list is showing
 
 1945
-**************
 Add category.js inside wwwroot folder.
 
 
 2010
-**************
 Modify CategoryController.cs
 
 
 2023-04-13 
 *************
 2015
-**************
 Add _CreateAndBackToListButton.cshtml inside Shared folder
 
-2019
-**************
+-2019-
+
 Add  _EditAndBackToListButton.cshtml inside Shared folder
 
 2025
-**************
 Start Working on Assignment2 
 (Part-3)
 
 Created the CoverType.cs class in the TaranvirBooks.Models folder
 
 2320
-**************
 
 Add the interface ICoverTypeRepository.cs to the IRepository folder
 
 
 2323
-********************
 Created the CoverTypeRepository.cs class in the Repository folder
 
 2328
-***********
 Call to the CoverTypeRepository.cs class in the UnitOfWork.cs class a… 
 
 … nd in the interface
 
 2331
-*********
  run the coomand for covertype db in the powershell using this command.
  add-migration AddCoverTypeToDb
 
  2334
- ********
  Update the database
 
 **********
@@ -333,16 +304,13 @@ Migration file name
 20230414033108_AddCoverTypeToDb.cs
 
 2341
-**********
 Created the coverTypeController in the Controllers folder.
 
 1212
-**********
 
 My Cateogory folder was not solved then i added the file and reworking on Category Controller.cs file
 
 1249
-*********
 Created the Product.cs class in the Model folder and 
 
 Update The Applicationdbcontext.cs class 
@@ -357,11 +325,9 @@ Update The Applicationdbcontext.cs class
   update-database
 
 Timestamp file for product.cs class
-********************
 20230414044617_addProductToDb.cs 
 
 1259
-***************
 1249
  run the command for Product.cs migrations 
  add-migration addValidationToProduct
@@ -376,16 +342,13 @@ Timestamp file for product.cs class
 
 
 0121
-***************
 Add the interface ICoverTypeRepository.cs to the IRepository folder
 
 
 2323
-********************
 Created the IProductRepository.cs class in the Repository folder
 
 2328
-***********
 Call to the ProductRepository.cs class in the UnitOfWork.cs class a… 
 
 … nd in the interface
