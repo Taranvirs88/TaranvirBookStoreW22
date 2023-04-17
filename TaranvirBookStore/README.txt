@@ -356,3 +356,9 @@ Call to the ProductRepository.cs class in the UnitOfWork.cs class a…
 Assignment-2(Part3)
 (Section3.1)Completed
 **************************
+
+Clone the reopository from the github 
+and start working on Assignment2 
+(Part 3)
+3.2 Product CRUD(3)
+
