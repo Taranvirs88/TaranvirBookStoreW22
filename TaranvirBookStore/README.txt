@@ -362,3 +362,5 @@ and start working on Assignment2
 (Part 3)
 3.2 Product CRUD(3)
 
+Added the ProductVM class for creating the Product List.
+
