@@ -362,5 +362,9 @@ and start working on Assignment2
 (Part 3)
 3.2 Product CRUD(3)
 
+1022
 Added the ProductVM class for creating the Product List.
+
+1025
+Create the ProductVM and link to the ProductController in the Controller folder.
 
